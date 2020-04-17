@@ -5,7 +5,7 @@ Manage Talkgroups on your Hotspot via Brandmeister-API.
 git clone https://github.com/cascha42/bm-hotspot-cli.git && cd bm-hotspot-cli
 chmod +x bm-hotspot-cli.sh
 ```
-Insert your Brandmeister API-Key to api-key.txt
+> Insert your Brandmeister API-Key to api-key.txt
 ```bash
 ./bm-hotspot-cli.sh
 ```

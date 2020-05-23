@@ -59,7 +59,7 @@ function menu {
     [$(tput bold)4$(tput sgr0)] Add Static TG\n\
     [$(tput bold)5$(tput sgr0)] Drop Static TG\n\
     [$(tput bold)6$(tput sgr0)] Drop ALL Static TGs\n\
-    [$(tput bold)7$(tput sgr0)] Setup\n\
+    [$(tput bold)S$(tput sgr0)] Setup\n\
     [$(tput bold)Q$(tput sgr0)] Quit\n\n    "
     read -r -sn1 menu_selection
     case "$menu_selection" in
@@ -69,7 +69,7 @@ function menu {
             [4]) add_static_tg;;
             [5]) drop_static_tg;;
             [6]) drop_all_static_tgs;;
-            [7]) setup;;
+            [sS]) setup;;
             [8]) bunny;;
             [qQ]) printf "\n"; exit;;
     esac

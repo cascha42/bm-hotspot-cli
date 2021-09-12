@@ -69,8 +69,8 @@ function menu {
             [4]) add_static_tg;;
             [5]) drop_static_tg;;
             [6]) drop_all_static_tgs;;
+            [7]) bunny;;
             [sS]) setup;;
-            [8]) bunny;;
             [qQ]) printf "\n"; exit;;
     esac
 }
